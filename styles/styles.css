@@ -33,7 +33,7 @@ header {
 
 .starter1 {
   background-image: url(/images/wings.jpg);
-  background-size: cover;
+  background-size: contain;
 }
 
 .starter2 {
@@ -117,6 +117,11 @@ footer {
 }
 
 .footer {
+  background-color: #632900;
+}
+
+.mealText {
+  color: white;
   background-color: #632900;
 }
 /*# sourceMappingURL=styles.css.map */

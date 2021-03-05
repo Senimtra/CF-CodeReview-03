@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(48, 48, 48);
+  background-color: #303030;
 }
 
 header {
@@ -8,7 +8,7 @@ header {
 }
 
 .header {
-  background-color: rgb(99, 41, 0);
+  background-color: #632900;
 }
 
 .heroImg {
@@ -34,7 +34,7 @@ header {
 
 .starter1 {
   background-image: url(/images/wings.jpg);
-  background-size: cover;
+  background-size: contain;
 }
 
 .starter2 {
@@ -117,4 +117,9 @@ footer {
 
 .footer {
   background-color: rgb(99, 41, 0);
+}
+
+.mealText {
+  color: white;
+  background-color: #632900;
 }

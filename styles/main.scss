@@ -3,11 +3,13 @@ body {
 }
 
 header {
-  font-size: 200%;
+  font-size: 400%;
+  text-transform: uppercase;
 }
 
 footer {
-  font-size: 150%;
+  font-size: 200%;
+  text-transform: uppercase;
 }
 
 .heroImg {
@@ -17,4 +19,17 @@ footer {
   /* ### initial ratio of 1:1 ### */
 
   padding-top: 40%;
+}
+
+.mealBox {
+  content: "";
+  display: block;
+  background-color: grey;
+  /* ### initial ratio of 1:1 ### */
+
+  padding-top: 125%;
+}
+
+.sectionTxt {
+  font-size: 300%;
 }

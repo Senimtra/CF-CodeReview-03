@@ -1,10 +1,9 @@
 body {
   background-color: #303030;
   font-family: "Acme", sans-serif !important;
-  overflow: hidden;
 }
 
-header {
+.header {
   font-size: 400%;
   text-transform: uppercase;
 }
@@ -13,9 +12,25 @@ header {
   background-color: #632900;
 }
 
-.heroImg {
+.navbar {
+  background-color: transparent;
+  font-size: 300%;
+}
+
+a {
+  color: white;
+}
+
+.fheroImg {
   background-image: url(../images/header.jpg);
   background-size: cover;
+
+  height: 55em;
+}
+
+.heroImg {
+  background-image: url(../images/header.jpg);
+
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-top: 60%;

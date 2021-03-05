@@ -48,34 +48,30 @@
 
         <div class="col fheroImg">
           <nav class="navbar navbar-expand">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button
+            <ul class="nav">
+              <li class="nav-item">
+                <a
                   class="nav-link active"
                   id="home-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#home"
-                  type="button"
-                  role="tab"
                   aria-controls="home"
                   aria-selected="true"
                 >
-                  Home
-                </button>
+                  Home |
+                </a>
               </li>
-              <li class="nav-item" role="presentation">
-                <button
+              <li class="nav-item">
+                <a
                   class="nav-link"
                   id="profile-tab"
                   data-bs-toggle="tab"
-                  data-bs-target="#profile"
-                  type="button"
-                  role="tab"
-                  aria-controls="profile"
+                  data-bs-target="#trust"
+                  aria-controls="trust"
                   aria-selected="false"
                 >
-                  Profile
-                </button>
+                  We are trusted!
+                </a>
               </li>
             </ul>
           </nav>
@@ -279,6 +275,66 @@
             </div>
           </div>
         </div>
+        <!---------------------------------------------->
+        <div
+          class="tab-pane fade"
+          id="trust"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+        >
+          <div class="row m-0">
+            <!-- ### Main content begins here ### -->
+
+            <div class="col bg-info px-md-5 pb-5 main">
+              <!-- ### Starters & Sides begin here ### -->
+
+              <div class="row sectionTxt pt-4 pb-5">
+                <div class="col d-flex justify-content-center">
+                  #####################################s
+                </div>
+              </div>
+              <div class="row gy-4 pb-4 px-2 bg-dark section">
+                <div class="col-lg-3 col-md-6">
+                  <div class="mealBox starter1"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Chicken Wings</h2></div>
+                    <div class="description">6-Pack with dip of choice.</div>
+                    <div class="description">"Do the funky chicken!"</div>
+                    <div class="price">€ 5.50</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="mealBox starter2"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Nacho Grande</h2></div>
+                    <div class="description">True mexican style.</div>
+                    <div class="description">"¡Ay, caramba!"</div>
+                    <div class="price">€ 4.95</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="mealBox starter3"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Shrimp Basket</h2></div>
+                    <div class="description">Delicious sea food.</div>
+                    <div class="description">"Just tasty!"</div>
+                    <div class="price">€ 6.50</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="mealBox starter4"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Caesar's Salad</h2></div>
+                    <div class="description">Fresh and healthy.</div>
+                    <div class="description">"Hail, Caesar!"</div>
+                    <div class="price">€ 5.95</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------------------>
       </div>
       <div class="row">
         <!-- ### Footer begins here ### -->

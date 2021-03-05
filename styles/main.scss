@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(48, 48, 48);
+}
+
+header {
+  font-size: 200%;
+}
+
+footer {
+  font-size: 150%;
+}
+
+.heroImg {
+  content: "";
+  display: block;
+
+  /* ### initial ratio of 1:1 ### */
+
+  padding-top: 40%;
+}

@@ -1,5 +1,6 @@
 body {
   background-color: #303030;
+  font-family: "Acme", sans-serif !important;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 }
 
 .heroImg {
-  background-image: url(/images/header.jpg);
+  background-image: url(../images/header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 50%;
@@ -32,82 +33,82 @@ header {
 }
 
 .starter1 {
-  background-image: url(/images/wings.jpg);
+  background-image: url(../images/wings.jpg);
   background-size: contain;
 }
 
 .starter2 {
-  background-image: url(/images/nachos.jpg);
+  background-image: url(../images/nachos.jpg);
   background-size: cover;
 }
 
 .starter3 {
-  background-image: url(/images/shrimps.jpg);
+  background-image: url(../images/shrimps.jpg);
   background-size: cover;
 }
 
 .starter4 {
-  background-image: url(/images/salad.jpg);
+  background-image: url(../images/salad.jpg);
   background-size: cover;
 }
 
 .burgers1 {
-  background-image: url(/images/burgatory.jpg);
+  background-image: url(../images/burgatory.jpg);
   background-size: cover;
 }
 
 .burgers2 {
-  background-image: url(/images/pulledpork.jpg);
+  background-image: url(../images/pulledpork.jpg);
   background-size: cover;
 }
 
 .burgers3 {
-  background-image: url(/images/cheese.jpg);
+  background-image: url(../images/cheese.jpg);
   background-size: cover;
 }
 
 .burgers4 {
-  background-image: url(/images/veggie.jpg);
+  background-image: url(../images/veggie.jpg);
   background-size: cover;
 }
 
 .dessert1 {
-  background-image: url(/images/cookies.jpg);
+  background-image: url(../images/cookies.jpg);
   background-size: cover;
 }
 
 .dessert2 {
-  background-image: url(/images/cake.jpg);
+  background-image: url(../images/cake.jpg);
   background-size: cover;
 }
 
 .dessert3 {
-  background-image: url(/images/donuts.jpg);
+  background-image: url(../images/donuts.jpg);
   background-size: cover;
 }
 
 .dessert4 {
-  background-image: url(/images/icecream.jpg);
+  background-image: url(../images/icecream.jpg);
   background-size: cover;
 }
 
 .drinks1 {
-  background-image: url(/images/icetea.jpg);
+  background-image: url(../images/icetea.jpg);
   background-size: cover;
 }
 
 .drinks2 {
-  background-image: url(/images/juice.jpg);
+  background-image: url(../images/juice.jpg);
   background-size: cover;
 }
 
 .drinks3 {
-  background-image: url(/images/water.jpg);
+  background-image: url(../images/water.jpg);
   background-size: cover;
 }
 
 .drinks4 {
-  background-image: url(/images/beer.jpg);
+  background-image: url(../images/beer.jpg);
   background-size: cover;
 }
 

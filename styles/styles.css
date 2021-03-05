@@ -120,8 +120,24 @@ footer {
   background-color: #632900;
 }
 
+.description {
+  font-style: italic;
+  color: #eeded2;
+}
+
+.price {
+  font-size: 140%;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .mealText {
-  color: white;
   background-color: #632900;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

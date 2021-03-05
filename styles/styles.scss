@@ -119,7 +119,19 @@ footer {
   background-color: rgb(99, 41, 0);
 }
 
+.description {
+  font-style: italic;
+  color: #eeded2;
+}
+
+.price {
+  font-size: 140%;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .mealText {
-  color: white;
   background-color: #632900;
+  color: white;
 }

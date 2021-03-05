@@ -7,9 +7,8 @@ header {
   text-transform: uppercase;
 }
 
-footer {
-  font-size: 200%;
-  text-transform: uppercase;
+.header {
+  background-color: #632900;
 }
 
 .heroImg {
@@ -110,5 +109,14 @@ footer {
 .drinks4 {
   background-image: url(/images/beer.jpg);
   background-size: cover;
+}
+
+footer {
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #632900;
 }
 /*# sourceMappingURL=styles.css.map */

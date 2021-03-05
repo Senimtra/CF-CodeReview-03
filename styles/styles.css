@@ -13,10 +13,11 @@ footer {
 }
 
 .heroImg {
-  content: "";
-  display: block;
-  /* ### initial ratio of 1:1 ### */
-  padding-top: 40%;
+  background-image: url(/images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-top: 60%;
 }
 
 .mealBox {
@@ -30,4 +31,4 @@ footer {
 .sectionTxt {
   font-size: 300%;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=styles.css.map */

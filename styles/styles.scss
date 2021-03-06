@@ -9,9 +9,11 @@ body {
   text-transform: uppercase;
   background-color: #632900;
   div img {
+    font-size: 0.5em !important;
     width: 10em;
   }
   div a img {
+    font-size: 0.5em !important;
     width: 1em;
   }
 }
@@ -184,6 +186,7 @@ nav .nav li a {
   }
   div a img {
     width: 0.7em;
+    font-size: 0.5em !important;
   }
 }
 
@@ -220,6 +223,7 @@ nav .nav li a {
 .profile-pic img {
   width: 10em;
   height: 10em;
+  font-size: 0.5em !important;
   object-fit: cover;
 }
 
@@ -234,6 +238,7 @@ nav .nav li a {
 }
 
 .stars img {
+  font-size: 0.5em !important;
   width: 2em;
 }
 

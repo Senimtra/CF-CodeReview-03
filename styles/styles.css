@@ -11,10 +11,12 @@ body {
 }
 
 .header div img {
+  font-size: 0.5em !important;
   width: 10em;
 }
 
 .header div a img {
+  font-size: 0.5em !important;
   width: 1em;
 }
 
@@ -201,6 +203,7 @@ nav .nav li a {
 
 .footer div a img {
   width: 0.7em;
+  font-size: 0.5em !important;
 }
 
 .description {
@@ -254,6 +257,7 @@ nav .nav li a {
 .profile-pic img {
   width: 10em;
   height: 10em;
+  font-size: 0.5em !important;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -269,6 +273,7 @@ nav .nav li a {
 }
 
 .stars img {
+  font-size: 0.5em !important;
   width: 2em;
 }
 

@@ -23,30 +23,30 @@ nav .nav li a {
 
 /* not active */
 .nav-pills .pill-1 .nav-link:not(.active) {
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: #ff000080;
 }
 
 .nav-pills .pill-2 .nav-link:not(.active) {
-  background-color: rgba(0, 250, 0, 0.5);
+  background-color: #00fa0080;
 }
 
 .nav-pills .pill-3 .nav-link:not(.active) {
-  background-color: rgba(0, 0, 250, 0.5);
+  background-color: #0000fa80;
   color: white;
 }
 
 /* active (faded) */
 .nav-pills .pill-1 .nav-link {
-  background-color: rgba(255, 0, 0, 0.2);
+  background-color: #ff000040;
   color: white;
 }
 
 .nav-pills .pill-2 .nav-link {
-  background-color: rgba(0, 250, 0, 0.2);
+  background-color: #00fa0040;
 }
 
 .nav-pills .pill-3 .nav-link {
-  background-color: rgba(0, 0, 250, 0.2);
+  background-color: #0000fa40;
   color: white;
 }
 
@@ -61,13 +61,22 @@ nav .nav li a {
   display: block;
   background-color: grey;
   /* ### initial ratio of 1:1 ### */
-
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
   padding-top: 150%;
 }
 
+.secHead {
+  display: flex;
+  justify-content: center;
+  color: #eeded2;
+  border-radius: 0.15em;
+  box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+}
+
 .section {
-  box-shadow: 0px 10px 13px -7px #000000;
-  border-radius: 8px;
+  box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+  border-radius: 0.5rem;
 }
 
 .sectionTxt {
@@ -171,10 +180,22 @@ footer {
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
+  padding-right: 0.2em;
 }
 
 .mealText {
   background-color: #632900;
   color: white;
   font-size: 120%;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.grow {
+  display: flex;
+  flex-direction: column;
 }

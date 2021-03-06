@@ -1,6 +1,7 @@
 body {
   background-color: #303030;
   font-family: "Acme", sans-serif !important;
+  overflow-x: hidden;
 }
 
 .header {
@@ -198,4 +199,24 @@ footer {
 .grow {
   display: flex;
   flex-direction: column;
+}
+
+.profile-pic img {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+}
+
+.review {
+  color: white;
+  border-radius: 0.5em;
+}
+
+.revText {
+  border-radius: 0.5em;
+  font-size: 130%;
+}
+
+.stars img {
+  width: 2em;
 }

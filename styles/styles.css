@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  font-size: 400%;
+  font-size: 450%;
   text-transform: uppercase;
   background-color: #632900;
 }
@@ -16,6 +16,18 @@ body {
 
 .header div a img {
   width: 1em;
+}
+
+.logo {
+  border-radius: 0.2em;
+  -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+          box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+}
+
+.logo div {
+  border-radius: 0.2em;
+  -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+          box-shadow: 0px 0.625em 0.813em -0.438em #000000;
 }
 
 .navbar {

@@ -299,7 +299,7 @@
 
         <div class="tab-pane fade" id="trust" aria-labelledby="profile-tab">
           <div class="row m-0">
-            <!-- ### Main content begins here ### -->
+            <!-- ### Customer-reviews sub-page header begins here ### -->
 
             <div class="col bg-info px-md-5 pb-5 main">
               <div class="row sectionTxt pt-4 pb-5">
@@ -470,13 +470,95 @@
 
         <div class="tab-pane fade" id="contact" aria-labelledby="contact-tab">
           <div class="row m-0">
-            <!-- ### Main content begins here ### -->
+            <!-- ### Contact sub-page header begins here ### -->
 
             <div class="col bg-info px-md-5 pb-5 main">
               <div class="row sectionTxt pt-4 pb-5">
                 <div class="col d-flex justify-content-center p-0">
-                  <div class="col-12 secHead p-2 mt-5 mb-3 bg-dark">
+                  <div class="col-12 secHead p-2 mt-5 mb-2 bg-dark">
                     Contact
+                  </div>
+                </div>
+              </div>
+
+              <!-- ### Contact form begins here ### -->
+
+              <div class="row p-4 px-2 bg-dark section">
+                <div class="col-lg-12">
+                  <div class="contact p-4 bg-secondary">
+                    <form id="contact-form">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group mb-3">
+                            <label for="form_name">Firstname *</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Please enter your firstname *"
+                              required="required"
+                              data-error="Firstname is required."
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group mb-3">
+                            <label for="form_lastname">Lastname *</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Please enter your lastname *"
+                              required="required"
+                              data-error="Lastname is required."
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group mb-3">
+                            <label for="form_email">Email *</label>
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Please enter your email *"
+                              required="required"
+                              data-error="Valid email is required."
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group mb-3">
+                            <label for="form_phone">Phone-number</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Please enter your phone-number"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea
+                              class="form-control"
+                              placeholder="Write your message here."
+                              rows="4"
+                              required="required"
+                              data-error="Please, leave us a message."
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mt-4">
+                          <input
+                            type="submit"
+                            class="btn btn-success btn-send pt-2 btn-block"
+                            value="Send Message"
+                          />
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>

@@ -160,10 +160,17 @@ nav .nav li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #eeded2;
   border-radius: 0.15em;
   -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
           box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+}
+
+.secHead img {
+  height: 1.3em;
 }
 
 .section {

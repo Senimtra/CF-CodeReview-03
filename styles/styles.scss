@@ -141,9 +141,13 @@ nav .nav li a {
 .secHead {
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #eeded2;
   border-radius: 0.15em;
   box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+  img {
+    height: 1.3em;
+  }
 }
 
 .section {

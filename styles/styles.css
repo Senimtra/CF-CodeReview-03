@@ -13,6 +13,10 @@ body {
   background-color: #632900;
 }
 
+.header div img {
+  width: 1em;
+}
+
 .navbar {
   background-color: transparent;
   font-size: 250%;

@@ -11,7 +11,7 @@ body {
 
 .header {
   background-color: #632900;
-  div img {
+  div a img {
     width: 1em;
   }
 }
@@ -57,7 +57,7 @@ nav .nav li a {
 .heroImg {
   background-image: url(../images/header.jpg);
   background-size: cover;
-  height: 50em;
+  height: 53em;
 }
 
 .mealBox {
@@ -165,13 +165,13 @@ nav .nav li a {
   background-size: cover;
 }
 
-footer {
-  font-size: 200%;
-  text-transform: uppercase;
-}
-
 .footer {
+  font-size: 300%;
+  text-transform: uppercase;
   background-color: rgb(99, 41, 0);
+  div a img {
+    width: 0.7em;
+  }
 }
 
 .description {

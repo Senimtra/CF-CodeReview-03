@@ -1,19 +1,21 @@
+// ### General CSS begins here ###
+
 body {
   background-color: #303030;
   font-family: "Acme", sans-serif !important;
   overflow-x: hidden;
 }
 
+// ### Header and logo CSS begins here ###
+
 .header {
   font-size: 450%;
   text-transform: uppercase;
   background-color: #632900;
   div img {
-    font-size: 0.5em !important;
     width: 10em;
   }
   div a img {
-    font-size: 0.5em !important;
     width: 1em;
   }
 }
@@ -25,6 +27,14 @@ body {
     border-radius: 0.2em;
     box-shadow: 0px 0.625em 0.813em -0.438em #000000;
   }
+}
+
+// ### Nav-bar and hero-image CSS begins here ###
+
+.heroImg {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  height: 53em;
 }
 
 .navbar {
@@ -41,7 +51,6 @@ nav .nav li a {
   border-radius: 0.2em;
 }
 
-/* not active */
 .nav-pills .pill-1 .nav-link:not(.active) {
   background-color: #474747;
   color: white;
@@ -57,7 +66,6 @@ nav .nav li a {
   color: white;
 }
 
-/* hover */
 .nav-pills .pill-1 .nav-link:hover {
   background-color: #632900;
   color: white;
@@ -73,7 +81,6 @@ nav .nav li a {
   color: white;
 }
 
-/* active (faded) */
 .nav-pills .pill-1 .nav-link {
   background-color: #212529;
   color: white;
@@ -89,11 +96,7 @@ nav .nav li a {
   color: white;
 }
 
-.heroImg {
-  background-image: url(../images/header.jpg);
-  background-size: cover;
-  height: 53em;
-}
+// ### Main-content CSS begins here ###
 
 .mealBox {
   content: "";
@@ -103,6 +106,36 @@ nav .nav li a {
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
   padding-top: 150%;
+}
+
+.mealText {
+  background-color: #632900;
+  color: white;
+  font-size: 120%;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.grow {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-style: normal;
+  color: #eeded2;
+}
+
+.price {
+  font-size: 140%;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0.2em;
 }
 
 .secHead {
@@ -200,6 +233,8 @@ nav .nav li a {
   background-size: cover;
 }
 
+// ### Footer CSS begins here ###
+
 .footer {
   font-size: 300%;
   text-transform: uppercase;
@@ -210,44 +245,14 @@ nav .nav li a {
   }
   div a img {
     width: 0.7em;
-    font-size: 0.5em !important;
   }
 }
 
-.description {
-  font-style: normal;
-  color: #eeded2;
-}
-
-.price {
-  font-size: 140%;
-  font-weight: bold;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 0.2em;
-}
-
-.mealText {
-  background-color: #632900;
-  color: white;
-  font-size: 120%;
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 1;
-}
-
-.grow {
-  display: flex;
-  flex-direction: column;
-}
+// ### Customer-review sub-page CSS begins here ###
 
 .profile-pic img {
   width: 10em;
   height: 10em;
-  font-size: 0.5em !important;
   object-fit: cover;
 }
 
@@ -262,9 +267,10 @@ nav .nav li a {
 }
 
 .stars img {
-  font-size: 0.5em !important;
   width: 2em;
 }
+
+// ### Contact sub-page CSS begins here ###
 
 .contact {
   font-size: 130%;

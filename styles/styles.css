@@ -11,12 +11,10 @@ body {
 }
 
 .header div img {
-  font-size: 0.5em !important;
   width: 10em;
 }
 
 .header div a img {
-  font-size: 0.5em !important;
   width: 1em;
 }
 
@@ -30,6 +28,12 @@ body {
   border-radius: 0.2em;
   -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
           box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+}
+
+.heroImg {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  height: 53em;
 }
 
 .navbar {
@@ -46,7 +50,6 @@ nav .nav li a {
   border-radius: 0.2em;
 }
 
-/* not active */
 .nav-pills .pill-1 .nav-link:not(.active) {
   background-color: #474747;
   color: white;
@@ -62,7 +65,6 @@ nav .nav li a {
   color: white;
 }
 
-/* hover */
 .nav-pills .pill-1 .nav-link:hover {
   background-color: #632900;
   color: white;
@@ -78,7 +80,6 @@ nav .nav li a {
   color: white;
 }
 
-/* active (faded) */
 .nav-pills .pill-1 .nav-link {
   background-color: #212529;
   color: white;
@@ -94,12 +95,6 @@ nav .nav li a {
   color: white;
 }
 
-.heroImg {
-  background-image: url(../images/header.jpg);
-  background-size: cover;
-  height: 53em;
-}
-
 .mealBox {
   content: "";
   display: block;
@@ -108,6 +103,54 @@ nav .nav li a {
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
   padding-top: 150%;
+}
+
+.mealText {
+  background-color: #632900;
+  color: white;
+  font-size: 120%;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.grow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.description {
+  font-style: normal;
+  color: #eeded2;
+}
+
+.price {
+  font-size: 140%;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 0.2em;
 }
 
 .secHead {
@@ -227,61 +270,11 @@ nav .nav li a {
 
 .footer div a img {
   width: 0.7em;
-  font-size: 0.5em !important;
-}
-
-.description {
-  font-style: normal;
-  color: #eeded2;
-}
-
-.price {
-  font-size: 140%;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding-right: 0.2em;
-}
-
-.mealText {
-  background-color: #632900;
-  color: white;
-  font-size: 120%;
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-.grow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .profile-pic img {
   width: 10em;
   height: 10em;
-  font-size: 0.5em !important;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -297,7 +290,6 @@ nav .nav li a {
 }
 
 .stars img {
-  font-size: 0.5em !important;
   width: 2em;
 }
 
